@@ -8,5 +8,5 @@ import android.view.View;
  */
 
 public interface TapListener {
-    void onTap(View v);
+    void onTap(View v, MotionEvent e);
 }
