@@ -41,7 +41,7 @@ class ZoomableTouchListener implements View.OnTouchListener, ScaleGestureDetecto
 
                 @Override
                 public boolean onSingleTapConfirmed(MotionEvent e) {
-                    if (mTapListener != null) mTapListener.onTap(mTarget);
+                    if (mTapListener != null) mTapListener.onTap(mTarget, e);
                     return true;
                 }
 
